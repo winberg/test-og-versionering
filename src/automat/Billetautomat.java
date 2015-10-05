@@ -33,6 +33,8 @@ public class Billetautomat {
 		{
 			balance = balance + beløb;
 		}
+		
+		//test af commit
 		else
 		{
 			System.out.println("Der kan ikke indsættes mindre end 1 kr.");
