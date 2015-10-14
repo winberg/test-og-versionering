@@ -29,14 +29,14 @@ public class Billetautomat {
 	 * Modtag nogle penge (i kroner) fra en kunde.
 	 */
 	public void indsætPenge(int beløb) {
-		//if(beløb>=0)
-		//{
+		if(beløb>=0)
+		{
 			balance = balance + beløb;
-		//}
-		//else
-		//{
-			//System.out.println("Der kan ikke indsættes mindre end 1 kr.");
-		//}
+		}
+		else
+		{
+			System.out.println("Der kan ikke indsættes mindre end 1 kr.");
+		}
 			
 	}
 
